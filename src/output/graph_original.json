@@ -1,0 +1,282 @@
+{
+  "options": {
+    "type": "undirected",
+    "multi": false,
+    "allowSelfLoops": true
+  },
+  "attributes": {},
+  "nodes": [
+    {
+      "key": "n1",
+      "attributes": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "key": "n2",
+      "attributes": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "key": "n3",
+      "attributes": {
+        "x": 2,
+        "y": 1
+      }
+    },
+    {
+      "key": "n4",
+      "attributes": {
+        "x": 3,
+        "y": 2
+      }
+    },
+    {
+      "key": "n5",
+      "attributes": {
+        "x": 4,
+        "y": 3
+      }
+    },
+    {
+      "key": "n6",
+      "attributes": {
+        "x": 2,
+        "y": 3
+      }
+    },
+    {
+      "key": "n7",
+      "attributes": {
+        "x": 1,
+        "y": 4
+      }
+    },
+    {
+      "key": "n8",
+      "attributes": {
+        "x": 0,
+        "y": 5
+      }
+    },
+    {
+      "key": "n9",
+      "attributes": {
+        "x": 3,
+        "y": 0
+      }
+    },
+    {
+      "key": "n10",
+      "attributes": {
+        "x": 4,
+        "y": 1
+      }
+    },
+    {
+      "key": "n11",
+      "attributes": {
+        "x": 5,
+        "y": 2
+      }
+    },
+    {
+      "key": "n12",
+      "attributes": {
+        "x": 1,
+        "y": 2
+      }
+    },
+    {
+      "key": "n13",
+      "attributes": {
+        "x": 2,
+        "y": 4
+      }
+    },
+    {
+      "key": "n14",
+      "attributes": {
+        "x": 5,
+        "y": 4
+      }
+    },
+    {
+      "key": "n15",
+      "attributes": {
+        "x": 0,
+        "y": 3
+      }
+    },
+    {
+      "key": "n16",
+      "attributes": {
+        "x": 3,
+        "y": 5
+      }
+    },
+    {
+      "key": "n17",
+      "attributes": {
+        "x": 4,
+        "y": 5
+      }
+    },
+    {
+      "key": "n18",
+      "attributes": {
+        "x": 1,
+        "y": 5
+      }
+    },
+    {
+      "key": "n19",
+      "attributes": {
+        "x": 2,
+        "y": 0
+      }
+    },
+    {
+      "key": "n20",
+      "attributes": {
+        "x": 5,
+        "y": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "geid_72_0",
+      "source": "n1",
+      "target": "n2"
+    },
+    {
+      "key": "geid_72_1",
+      "source": "n2",
+      "target": "n3"
+    },
+    {
+      "key": "geid_72_2",
+      "source": "n3",
+      "target": "n4"
+    },
+    {
+      "key": "geid_72_3",
+      "source": "n4",
+      "target": "n5"
+    },
+    {
+      "key": "geid_72_4",
+      "source": "n5",
+      "target": "n6"
+    },
+    {
+      "key": "geid_72_5",
+      "source": "n6",
+      "target": "n7"
+    },
+    {
+      "key": "geid_72_6",
+      "source": "n7",
+      "target": "n8"
+    },
+    {
+      "key": "geid_72_7",
+      "source": "n8",
+      "target": "n1"
+    },
+    {
+      "key": "geid_72_8",
+      "source": "n2",
+      "target": "n12"
+    },
+    {
+      "key": "geid_72_9",
+      "source": "n12",
+      "target": "n6"
+    },
+    {
+      "key": "geid_72_10",
+      "source": "n3",
+      "target": "n9"
+    },
+    {
+      "key": "geid_72_11",
+      "source": "n9",
+      "target": "n10"
+    },
+    {
+      "key": "geid_72_12",
+      "source": "n10",
+      "target": "n11"
+    },
+    {
+      "key": "geid_72_13",
+      "source": "n5",
+      "target": "n14"
+    },
+    {
+      "key": "geid_72_14",
+      "source": "n14",
+      "target": "n17"
+    },
+    {
+      "key": "geid_72_15",
+      "source": "n17",
+      "target": "n16"
+    },
+    {
+      "key": "geid_72_16",
+      "source": "n16",
+      "target": "n13"
+    },
+    {
+      "key": "geid_72_17",
+      "source": "n13",
+      "target": "n7"
+    },
+    {
+      "key": "geid_72_18",
+      "source": "n8",
+      "target": "n15"
+    },
+    {
+      "key": "geid_72_19",
+      "source": "n15",
+      "target": "n18"
+    },
+    {
+      "key": "geid_72_20",
+      "source": "n18",
+      "target": "n16"
+    },
+    {
+      "key": "geid_72_21",
+      "source": "n19",
+      "target": "n20"
+    },
+    {
+      "key": "geid_72_22",
+      "source": "n19",
+      "target": "n9"
+    },
+    {
+      "key": "geid_72_23",
+      "source": "n20",
+      "target": "n11"
+    },
+    {
+      "key": "geid_72_24",
+      "source": "n4",
+      "target": "n13"
+    },
+    {
+      "key": "geid_72_25",
+      "source": "n6",
+      "target": "n16"
+    }
+  ]
+}

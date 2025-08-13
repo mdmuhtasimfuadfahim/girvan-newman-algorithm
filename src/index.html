@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Graph Visualization</title>
+    <script src="https://unpkg.com/graphology"></script>
+    <script src="https://unpkg.com/sigma"></script>
+    <script src="https://unpkg.com/d3-scale@4"></script>
+</head>
+
+<body style="display: flex; flex-direction: row; height: 100vh; margin: 0;">
+    <div style="flex: 1; border-right: 1px solid #ccc;">
+        <h3 style="text-align: center;">Original Graph</h3>
+        <div id="graph1" style="width: 100%; height: calc(100% - 30px);"></div>
+    </div>
+    <div style="flex: 1;">
+        <h3 style="text-align: center;">After Girvan–Newman</h3>
+        <div id="graph2" style="width: 100%; height: calc(100% - 30px);"></div>
+    </div>
+
+    <script>
+        function renderGraph(jsonFile, containerId) {
+            fetch(jsonFile)
+                .then(res => res.json())
+                .then(data => {
+                    const graph = graphology.Graph.import(data);
+
+                    // Assign random colors for communities
+                    const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+                    graph.forEachNode(node => {
+                        graph.setNodeAttribute(node, 'color', colorScale(node));
+                    });
+
+                    new sigma.Sigma(graph, document.getElementById(containerId));
+                });
+        }
+
+        renderGraph('output/graph_original.json', 'graph1');
+        renderGraph('output/graph_after.json', 'graph2');
+    </script>
+</body>
+
+</html>
