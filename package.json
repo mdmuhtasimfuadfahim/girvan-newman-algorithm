@@ -1,27 +1,18 @@
 {
-  "name": "girvan-newman-algorithm",
+  "name": "bigdata-girvan-newman-node",
   "version": "1.0.0",
-  "description": "An assignment to implement the Girvan Newman Algorithm using NodeJS.",
-  "main": "index.js",
+  "description": "Big Data assignment: Girvan-Newman with edge betweenness, served via Express with D3 visualization.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mdmuhtasimfuadfahim/girvan-newman-algorithm.git"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mdmuhtasimfuadfahim/girvan-newman-algorithm/issues"
-  },
-  "homepage": "https://github.com/mdmuhtasimfuadfahim/girvan-newman-algorithm#readme",
+  "license": "MIT",
   "dependencies": {
-    "d3-scale": "^4.0.2",
-    "fs": "^0.0.1-security",
-    "graphology": "^0.26.0",
-    "graphology-metrics": "^2.4.0",
-    "sigma": "^3.0.2"
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
