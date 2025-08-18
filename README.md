@@ -148,6 +148,8 @@ curl http://localhost:3000/api/graphs
 
 You should see JSON with `original` and `after` graphs.
 
+![Girvan-Newman JSON Graph](output/demo_graph.json)
+
 ------------------------------------------------------------------------
 
 ## Why Girvan--Newman?
@@ -177,7 +179,7 @@ required.
 
 *(Example output --- left: original graph, right: after GN step)*
 
-![Girvan-Newman Visualization](images/demo_graph.png)
+![Girvan-Newman Visualization](output/demo_graph.png)
 
 ------------------------------------------------------------------------
 
