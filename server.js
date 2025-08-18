@@ -15,7 +15,7 @@ const { parseNetworkFile } = require('./src/parser');
 const { Graph } = require('./src/graph');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 // Serve static files from /public
 app.use(express.static(path.join(__dirname, 'public')));
