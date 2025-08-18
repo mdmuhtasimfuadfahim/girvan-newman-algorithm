@@ -44,6 +44,11 @@ bigdata-gn-node/
 
 > If you edit `data/samplenetwork.txt`, you can hit `http://localhost:3000/api/reload` to rebuild the graphs without restarting.
 
+## Screenshot
+
+![Girvan-Newman Visualization](images/demo_graph.png)
+*Left: Original graph with edge betweenness visualization. Right: Graph after community detection with nodes colored by community.*
+
 ---
 
 ## Input Format (`samplenetwork.txt`)
@@ -101,7 +106,7 @@ Finally, we compute **connected components** on the modified graph to label **co
 
 ## Changing the Graph
 
-Edit `data/samplenetwork.txt`. Example is already provided with **20 nodes** and **28 edges** forming **two dense clusters** connected by a single **bridge** (which GN will remove). If you want more nodes or edges, just add them; the parser is flexible.
+Edit `data/samplenetwork.txt`. Example is already provided with **25 nodes** and **34 edges** forming **two large clusters** connected by a single **bridge** (which GN will remove). If you want more nodes or edges, just add them; the parser is flexible.
 
 ---
 

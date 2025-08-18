@@ -23,6 +23,13 @@ n18 [540,140]
 n19 [560,100]
 n20 [580,60]
 
+% Extra nodes for Cluster B extension
+n21 [600,100]
+n22 [620,140]
+n23 [640,60]
+n24 [660,120]
+n25 [680,80]
+
 % Cluster A edges (n1–n10): 15 edges
 edge(n1,n2)
 edge(n2,n3)
@@ -57,3 +64,11 @@ edge(n13,n17)
 
 % Bridge between clusters (1 edge)
 edge(n5,n15)
+
+% Extra edges (6 edges)
+edge(n20,n21)
+edge(n21,n22)
+edge(n22,n23)
+edge(n23,n24)
+edge(n24,n25)
+edge(n21,n25)
