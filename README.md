@@ -183,5 +183,7 @@ required.
 
 ## License
 
-This project is for **educational use** to demonstrate Girvan--Newman
-community detection in Node.js.
+This project is for **educational purposes** to demonstrate Girvan--Newman
+community detection in Node.js and is licensed under the **GNU General Public License**.
+
+See the [LICENSE](LICENSE) file for full license details.
