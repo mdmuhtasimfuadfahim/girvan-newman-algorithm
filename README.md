@@ -116,6 +116,8 @@ The input file `samplenetwork.txt` follows this structure:
     }
     ```
 
+> **Example Output:** See [`output/demo_graph.json`](output/demo_graph.json) for a complete sample response with 25 nodes showing the exact structure returned by this endpoint.
+
 -   **Frontend (`public/index.html`):**
 
     -   Left: Original graph
@@ -147,8 +149,6 @@ curl http://localhost:3000/api/graphs
 ```
 
 You should see JSON with `original` and `after` graphs.
-
-![Girvan-Newman JSON Graph](output/demo_graph.json)
 
 ------------------------------------------------------------------------
 
